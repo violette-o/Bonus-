@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 20px;
+
+}
+
+#info {
+    text-align: justify; 
+
+}
+
+
+.nombre {
+   font-size: 30px; 
+   padding: 25px;
+
+}
+
+.profile {
+    display: flex;
+    padding: 25px 25px 25px 0px;
+    text-align: justify;
+    border-bottom: 3px solid black;
+}
+
+.education {
+    background-color: white;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.education-container {
+    display: flex;
+}
+
+.education-element {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    border-right: 3px solid black;
+}
+
+.education-element-borde {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-left: 30px;
+}
