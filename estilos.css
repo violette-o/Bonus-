@@ -19,7 +19,7 @@ body {
 
 .profile {
     display: flex;
-    padding: 25px 25px 25px 0px;
+    padding: 15px 15px 15px 0px;
     text-align: justify;
     border-bottom: 3px solid black;
 }
@@ -29,6 +29,8 @@ body {
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
+    margin-top: 60px;
+
 
 }
 
@@ -38,14 +40,14 @@ body {
 
 .education-element {
     padding: 25px 25px 25px 0px;
-    width: 50%;
+    width: 40%;
     text-align: justify;
     border-right: 3px solid black;
 }
 
 .education-element-borde {
     padding: 25px 25px 25px 0px;
-    width: 50%;
+    width: 40%;
     text-align: justify;
     margin-left: 30px;
 }
