@@ -7,9 +7,12 @@ body {
 
 #info {
     text-align: justify; 
-
 }
 
+.profesion {
+    background-color: bisque;
+    font-size: 25px;
+}
 
 .nombre {
    font-size: 30px; 
@@ -21,17 +24,16 @@ body {
     display: flex;
     padding: 15px 15px 15px 0px;
     text-align: justify;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
+    
 }
 
 .education {
     background-color: white;
     width: 100%;
-    padding-left: 50px;
     padding-right: 50px;
-    margin-top: 60px;
-
-
+    margin-top: 30px;
+    border-bottom: 3px solid black;
 }
 
 .education-container {
@@ -40,14 +42,39 @@ body {
 
 .education-element {
     padding: 25px 25px 25px 0px;
-    width: 40%;
+    width: 50%;
     text-align: justify;
-    border-right: 3px solid black;
+    border-right: 2px solid black;
 }
 
 .education-element-borde {
     padding: 25px 25px 25px 0px;
-    width: 40%;
+    width: 50%;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.experience {
+    background-color: white;
+    width: 100%;
+    padding-right: 50px;
+    margin-top: 30px;
+    border-bottom: 3px solid black;
+}
+.experience-container {
+    display: flex;
+}
+
+.experience-element {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    border-right: 2px solid black;   
+}
+
+.experience-element-borde {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
     text-align: justify;
     margin-left: 30px;
 }
