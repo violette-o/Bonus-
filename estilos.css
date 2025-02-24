@@ -5,6 +5,14 @@ body {
 
 }
 
+ul li {
+    display: inline;
+    margin: 0px 25px;
+    margin-left: 2px;
+    text-align: center;
+    padding: 15px 15px 15px 0px ;
+}
+
 #info {
     text-align: justify; 
 }
@@ -12,11 +20,13 @@ body {
 .profesion {
     background-color: bisque;
     font-size: 25px;
+    margin-top: 5px;
 }
 
 .nombre {
    font-size: 30px; 
    padding: 25px;
+   margin-top: 25px;
 
 }
 
@@ -25,8 +35,10 @@ body {
     padding: 15px 15px 15px 0px;
     text-align: justify;
     border-bottom: 2px solid black;
+    margin-top: 30px;
     
 }
+
 
 .education {
     background-color: white;
@@ -45,6 +57,7 @@ body {
     width: 50%;
     text-align: justify;
     border-right: 2px solid black;
+    margin-bottom: 40px;
 }
 
 .education-element-borde {
@@ -59,7 +72,7 @@ body {
     width: 100%;
     padding-right: 50px;
     margin-top: 30px;
-    border-bottom: 3px solid black;
+
 }
 .experience-container {
     display: flex;
@@ -78,3 +91,146 @@ body {
     text-align: justify;
     margin-left: 30px;
 }
+
+.experience-container-2 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.experience-element-2 {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    border-right: 2px solid black;
+}
+
+.experience-element-borde-2 {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.skills-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+   border-bottom: 2px solid black;
+   padding-bottom: 50px;
+   
+}
+
+
+.container {
+    width: 100%;
+    background-color: grey;
+}
+
+.skills {
+    text-align: right;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.html {
+    width: 90%; 
+    background-color: black;
+}
+.css {
+    width: 80%; 
+    background-color: black;
+}
+.js {
+    width: 90%; 
+    background-color: black;
+}
+
+.project-container {
+    display: flex;
+}
+
+.project-element {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    border-right: 2px solid black;   
+}
+
+.project-element-borde {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.project-c2 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+.project-element-2 {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 30px;
+    border-right: 2px solid black;
+}
+
+.project-element-borde-2 {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.english {
+    width: 90%; 
+    background-color: black;
+}
+.german {
+    width: 70%; 
+    background-color: black;
+}
+.spanish {
+    width: 50%; 
+    background-color: black;
+}
+.french {
+    width: 60%; 
+    background-color: black;
+}
+.turkis {
+    width: 40%; 
+    background-color: black;
+}
+
+.certification {
+   display: flex;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   border-bottom: 2px solid black;
+}
+
+.certification-element {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 30px;
+    border-right: 2px solid black;
+}
+
+.certification-element-borde {
+    padding: 25px 25px 25px 0px;
+    width: 50%;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+
+
+
+
